@@ -1,4 +1,52 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  /* font-family */
+  --font-f-base: IBM Plex Mono;
+
+  /* font-size */
+  --text-base-size: 18px;
+  --title-header-footer: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  /* font-weight */
+  --font-w-base: 400;
+
+  /* line-height */
+  --lh-base: 1.3;
+
+  /* images */
+  --page-bg-image: url(/images/cover-image-dark.png);
+
+  /* title */
+  --title-color: #DB00FF;
+
+  /* text-color */
+  --header-title-text: #000028;
+  --section-title-text-color: #000028;
+  --text-base-color: #F1B2CE;
+  --title-base-color: #FF0070;  
+  --shadow-color: #FF0070;
+  --link-color: #F1B2CE;
+
+  /* background-color */
+  --title-base-bg: #FF0070;
+  --page-bg-color: #000028;
+
+  /* button */
+  --border-button: #FF0070;
+  --button-border-bottom: #FF0070;
+
+  /* decorated-zone */
+  --decorative-corners-color: #FF0070;
+
+  /* block-size */
+  --block-size: 1024px;
+
+  /* margins */
+  --padding: 20px;
+  --gap-main: 80px;
+  --gap-page: 60px;
+  --gap-card: 10px;
+  --gap-paragraf: 20px;
+
+  /* display */
+  --display: block;
+}
