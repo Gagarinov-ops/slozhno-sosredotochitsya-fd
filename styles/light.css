@@ -40,29 +40,27 @@
     --page-bg-image: url(/images/cover-image-light.png);
 
     /* bacground-color */
-    --page-bg-color: #FFF1F7;
-    --title-base-bg: #FF8DCB;
+  --page-bg-color: #FFF1F7;
+  --title-base-bg: #FF8DCB;
+;
 
-    /* title-focus */
-    --title-color: #FFC2E6;
+  /* title-focus */
+  --title-color: #FFC2E6;
+  --title-shadow-color: #FF8DCB;
 
-    /* title */
-    --title-base-color: #353430;
-    
-    /* button */
-    --border-button: #353430;
-    --button-border-bottom: #353430;
+  /* title */
+  --title-base-color: #353430;
 
-    /* text */
-    --header-title-text: #353430;
-    --section-title-text-color: #353430;
-    --text-base-color: #353430;
-    --title-base-color: #353430;
-    --shadow-color: #FF8DCB;
-    --link-color: #353430;
+  /* button */
+  --border-button: #353430;
+  --button-border-bottom: #353430;
 
-    /* decorated-zone */
-    --decorative-corners-color: #353430;
+  /* decorated-zone */
+  --decorative-corners-color: #353430;
+
+  /* text */
+  --shadow-color: #FF8DCB;
+  --text-base-color: #353430;
 
     /* display */
     --display: none;

@@ -342,6 +342,7 @@
   font-size: var(--title-header-footer);
   color: var(--title-color);
   font-weight: var(--font-w-base);
+  text-shadow: 4px 4px 0 var(--shadow-color);
 }
 
 @media (max-width: 769px) {
