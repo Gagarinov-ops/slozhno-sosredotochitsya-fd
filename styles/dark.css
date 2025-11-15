@@ -29,13 +29,9 @@
   --text-base-color: #F1B2CE;
 
   /* links-text-color */
-  --link-color: #FF0070;
+  --link-color: #F1B2CE;
 
   /* display */
-  --display: none;
-}
-
-.decor-rec {
-  display: var(--display);
+  --display: block;
 }
 

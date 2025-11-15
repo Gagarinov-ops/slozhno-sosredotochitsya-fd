@@ -81,7 +81,7 @@
 
 .rec::after {
   content: "";
-  display: var(--inline-block);
+  display: block;
   width: 9px;
   height: 9px;
   background-color: var(--title-base-color);
