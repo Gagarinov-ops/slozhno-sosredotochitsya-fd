@@ -1,21 +1,21 @@
 :root.theme-dark {
-  /* images */
+    /* bacground-image */
   --page-bg-image: url(/images/cover-image-dark.png);
-  
-  /* title */
-  --title-color: #DB00FF;
 
-  /* text-color */
-  --header-title-text: #000028;
-  --section-title-text-color: #000028;
-  --text-base-color: #F1B2CE;
-  --title-base-color: #FF0070;  
-  --shadow-color: #FF0070;
-  --link-color: #F1B2CE;
-
-  /* background-color */
+  /* bacground-color */
   --title-base-bg: #FF0070;
   --page-bg-color: #000028;
+;
+
+  /* title-focus */
+  --title-color: #DB00FF;
+  
+  /* shadow-color */
+  --shadow-color: #FF0070;
+
+  /* title */
+  --header-title-text: #000028;
+  --title-base-color: #FF0070;
 
   /* button */
   --border-button: #FF0070;
@@ -23,9 +23,16 @@
 
   /* decorated-zone */
   --decorative-corners-color: #FF0070;
-  
+
+  /* text-color */
+  --section-title-text-color: #000028;
+  --text-base-color: #F1B2CE;
+
+  /* links-text-color */
+  --link-color: #FF0070;
+
   /* display */
-  --display: block;
+  --display: none;
 }
 
 .decor-rec {

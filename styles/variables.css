@@ -12,19 +12,25 @@
   /* line-height */
   --lh-base: 1.3;
 
-  /* images */
+  /* bacground-image */
   --page-bg-image: url(/images/cover-image-dark.png);
 
-  /* title */
+  /* title-focus */
   --title-color: #DB00FF;
 
-  /* text-color */
+  /* shadow-color */
+  --shadow-color: #FF0070;
+
+  /* title */
   --header-title-text: #000028;
+  --title-base-color: #FF0070;
+
+  /* text-color */
   --section-title-text-color: #000028;
   --text-base-color: #F1B2CE;
-  --title-base-color: #FF0070;  
-  --shadow-color: #FF0070;
-  --link-color: #F1B2CE;
+
+  /* links-text-color */
+  --link-color: #FF0070;
 
   /* background-color */
   --title-base-bg: #FF0070;

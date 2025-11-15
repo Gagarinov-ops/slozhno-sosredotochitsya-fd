@@ -86,7 +86,6 @@
   height: 9px;
   background-color: var(--title-base-color);
   border-radius: 50%;
-  /* filter: drop-shadow(0 0 4px 2px var(--title-base-color)); */
 }
 
 .decorated-zone::after {
@@ -137,11 +136,10 @@
 
 .header-title {
   grid-row: 3;
-  --font-w-base: 700;
-  --title-base-color: var(--header-title-text);
   inline-size: 50%;
   justify-self: end;
   align-self: center;
+  background-color: var(--title-base-bg);
 }
 
 .description {
