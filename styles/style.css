@@ -68,7 +68,7 @@
 
 .rec {
   margin-right: 30px;
-  color: var(--title-base-color);
+  color: var(--decorative-corners-color);
   text-transform: uppercase;
   font-size: var(--text-base-size);
   display: flex;
@@ -84,7 +84,7 @@
   display: block;
   width: 9px;
   height: 9px;
-  background-color: var(--title-base-color);
+  background-color: var(--decorative-corners-color);
   border-radius: 50%;
 }
 
