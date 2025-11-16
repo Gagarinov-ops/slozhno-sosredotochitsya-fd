@@ -10,8 +10,9 @@
   /* title-focus */
   --title-color: #DB00FF;
   
-  /* shadow-color */
-  --shadow-color: #FF0070;
+  /* title-shadow */
+  --title-shadow-color: #FF0070;
+  --title-shadow: 4px 4px 0 var(--title-shadow-color);
 
   /* title */
   --header-title-text: #000028;
@@ -28,8 +29,9 @@
   --section-title-text-color: #000028;
   --text-base-color: #F1B2CE;
 
-  /* links-text-color */
-  --link-color: #F1B2CE;
+  /* links-text */
+  --link-shadow-color: #FF0070;
+  --link-shadow: 2px 2px 0 var(--link-shadow-color);
 
   /* display */
   --display: block;

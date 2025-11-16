@@ -1,17 +1,17 @@
 :root.theme-light {
-  /* bacground-image */
+    /* bacground-image */
   --page-bg-image: url(/images/cover-image-light.png);
 
   /* bacground-color */
   --page-bg-color: #FFF1F7;
   --title-base-bg: #FF8DCB;
-;
 
   /* title-focus */
   --title-color: #FFC2E6;
   
-  /* shadow-color */
-  --shadow-color: #FF8DCB;
+  /* title-shadow */
+  --title-shadow-color: #FF8DCB;
+  --title-shadow: 4px 4px 0 var(--title-shadow-color);
 
   /* title */
   --title-base-color: #353430;
@@ -28,8 +28,9 @@
   --text-base-color: #353430;
   --section-title-text-color: #353430;
 
-  /* links-text-color */
-  --link-color: #353430;
+  /* links-text */
+  --link-shadow-color: #FF8DCB;
+  --link-shadow: 2px 2px 0 var(--link-shadow-color);
 
   /* display */
   --display: none;
@@ -47,13 +48,13 @@
   /* bacground-color */
   --page-bg-color: #FFF1F7;
   --title-base-bg: #FF8DCB;
-;
 
   /* title-focus */
   --title-color: #FFC2E6;
   
-  /* shadow-color */
-  --shadow-color: #FF8DCB;
+  /* title-shadow */
+  --title-shadow-color: #FF8DCB;
+  --title-shadow: 4px 4px 0 var(--title-shadow-color);
 
   /* title */
   --title-base-color: #353430;
@@ -70,8 +71,9 @@
   --text-base-color: #353430;
   --section-title-text-color: #353430;
 
-  /* links-text-color */
-  --link-color: #353430;
+  /* links-text */
+  --link-shadow-color: #FF8DCB;
+  --link-shadow: 2px 2px 0 var(--link-shadow-color);
 
   /* display */
   --display: none;
