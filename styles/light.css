@@ -1,6 +1,6 @@
 :root.theme-light {
     /* bacground-image */
-  --page-bg-image: url(/images/cover-image-light.png);
+  --page-bg-image: url(../images/cover-image-light.png);
 
   /* bacground-color */
   --page-bg-color: #FFF1F7;
@@ -43,7 +43,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* bacground-image */
-  --page-bg-image: url(/images/cover-image-light.png);
+  --page-bg-image: url(../images/cover-image-light.png);
 
   /* bacground-color */
   --page-bg-color: #FFF1F7;

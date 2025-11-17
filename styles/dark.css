@@ -1,6 +1,6 @@
 :root.theme-dark {
     /* bacground-image */
-  --page-bg-image: url(/images/cover-image-dark.png);
+  --page-bg-image: url(../images/cover-image-dark.png);
 
   /* bacground-color */
   --title-base-bg: #FF0070;
@@ -34,6 +34,6 @@
   --link-shadow: 2px 2px 0 var(--link-shadow-color);
 
   /* display */
-  --display: block;
+  --display: flex;
 }
 
