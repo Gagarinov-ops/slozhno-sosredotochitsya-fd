@@ -4,7 +4,7 @@
 
   /* font-size */
   --text-base-size: 18px;
-  --title-header-footer: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --title-header-footer: clamp(7.25rem, 0.5625rem + 14.4531vw, 9.8125rem);
 
   /* font-weight */
   --font-w-base: 400;

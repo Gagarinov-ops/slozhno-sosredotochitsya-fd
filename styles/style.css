@@ -53,7 +53,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--border-button);
+  outline: 1px solid rgba(255, 0, 112, 0.4);
 }
 
 .header__theme-menu-button:focus {
@@ -251,9 +251,13 @@
   padding-inline-end: var(--padding);
 }
 
-.sections-methods-title {
+.section-methods-title {
   grid-column: 1;
   background-color: var(--title-bg-paragraf);
+}
+
+.section-methods-list-title {
+  block-size: min-content;
 }
 
 .section-card {
@@ -357,6 +361,16 @@
 }
 
 @media (min-width:376px) and (max-width:500px) {
+  .section-title {
+    hyphens: auto;
+  }
+}
+
+@media (max-width 600px) and (max-height: 668px) {
+  .header {
+    height: auto;
+  }
+
   .section-title {
     hyphens: auto;
   }
