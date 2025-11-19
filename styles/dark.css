@@ -5,7 +5,6 @@
   /* bacground-color */
   --title-base-bg: #FF0070;
   --page-bg-color: #000028;
-;
 
   /* title-focus */
   --title-color: #DB00FF;
@@ -21,6 +20,7 @@
   /* button */
   --border-button: #FF0070;
   --button-border-bottom: #FF0070;
+  --button-hover: rgba(255, 0, 112, 0.4);
 
   /* decorated-zone */
   --decorative-corners-color: #FF0070;
